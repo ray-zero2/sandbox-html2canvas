@@ -11,7 +11,7 @@ module.exports = (env, argv) => {
   return {
     mode: 'production',
     entry: {
-      index: [path.resolve(__dirname, 'script/index.ts')],
+      index: [path.resolve(__dirname, 'script/index.js')],
     },
     output: {
       path: path.join(__dirname, '../public/assets/js/'),
