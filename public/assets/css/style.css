@@ -1,0 +1,49 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box !important;
+}
+
+.content-wrapper {
+  width: 100vw;
+}
+
+.content {
+  margin: 40px auto;
+  width: 100vw;
+  max-width: 375px;
+  background-color: pink;
+  padding: 10px;
+}
+
+.content__title {
+  color: #333333;
+  text-align: center;
+  font-family: futura;
+}
+
+.content__title span {
+  font-family: "Hiragino Kaku Go";
+}
+
+.content__area {
+  margin-top: 20px;
+  padding: 10px;
+  width: 100%;
+}
+
+.content__area svg {
+  width: 100%;
+}
+
+.content__images {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.content__images img {
+  display: block;
+  width: 40%;
+}
